@@ -1,0 +1,16 @@
+Tools:
+Python3
+
+Package:
+mxlend, scikit-learn, Lightgbm
+
+Feature Engineering:
+Label Encode column 'Longitude' and 'Latitude
+Extract numerical values and direction values from 'Longitude' and 'Latitude'
+
+Modeling:
+1. Lasso
+2. RandomForest
+3. Lightgbm
+4. Stacking, use Lasso, RandomForest, Lightgbm, and use Lasso model as meta regressor
+
